@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  nexus-agent:
+    build: .
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./memory:/app/memory
+      - ./knowledge:/app/knowledge
+    environment:
+      - PYTHONUNBUFFERED=1
+      - PYTHONDONTWRITEBYTECODE=1
+      - LOG_LEVEL=INFO
+    restart: unless-stopped
+    networks:
+      - hybrid-network
+
+networks:
+  hybrid-network:
+    driver: bridge

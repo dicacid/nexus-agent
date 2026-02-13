@@ -1,0 +1,41 @@
+{
+  "project_name": "Nexus Agent",
+  "version": "0.1.0",
+  "description": "Combining OpenClaw multi-platform connectivity with Agent Zero multi-agent cooperation",
+  "directories": {
+    "core": "/a0/hybrid-agent/core",
+    "gateway": "/a0/hybrid-agent/gateway",
+    "integration": "/a0/hybrid-agent/integration",
+    "agents": "/a0/hybrid-agent/agents",
+    "tools": "/a0/hybrid-agent/tools",
+    "memory": "/a0/hybrid-agent/memory",
+    "extensions": "/a0/hybrid-agent/extensions",
+    "instruments": "/a0/hybrid-agent/instruments",
+    "docs": "/a0/hybrid-agent/docs"
+  },
+  "api": {
+    "host": "0.0.0.0",
+    "port": 8080,
+    "endpoints": {
+      "message": "/api/v1/message",
+      "agent": "/api/v1/agent",
+      "task": "/api/v1/task",
+      "memory": "/api/v1/memory"
+    }
+  },
+  "platforms": [
+    "whatsapp",
+    "telegram",
+    "slack",
+    "discord",
+    "google_chat",
+    "signal",
+    "microsoft_teams",
+    "webchat"
+  ],
+  "llm_providers": [
+    "anthropic",
+    "openai",
+    "local_llm"
+  ]
+}
