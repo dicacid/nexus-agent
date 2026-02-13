@@ -28,6 +28,14 @@ The Nexus Agent combines the best features of OpenClaw and Agent Zero to create 
 - Add documentation for new features
 - Include tests for new functionality
 
+## 🧰 Development Environment
+
+Use separate runtime and development dependency sets:
+
+```bash
+pip install -r requirements-dev.txt
+```
+
 ## 🧪 Testing
 
 All contributions should include appropriate tests:

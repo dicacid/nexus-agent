@@ -21,7 +21,11 @@
       "agent": "/api/v1/agent",
       "task": "/api/v1/task",
       "memory": "/api/v1/memory"
-    }
+    },
+    "cors_allow_origins": [
+      "http://localhost:3000",
+      "http://127.0.0.1:3000"
+    ]
   },
   "platforms": [
     "whatsapp",
