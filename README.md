@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🤖 Nexus Agent
 
 **Combining OpenClaw multi-platform connectivity with Agent Zero multi-agent cooperation**
@@ -184,6 +183,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ---
 
 **Made with ❤️ by the Hybrid Agent Community**
-=======
-# nexus-agent
->>>>>>> 8d9377c61ca7829f5d31f7ad01d3a7fb79c12f61
